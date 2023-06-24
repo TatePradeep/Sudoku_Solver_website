@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-spacing: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e9f8fd;
+}
+
+.intro {
+    color: #1B4F72;
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin: 30px 0px 10px 0px;
+}
+
+.decorator-elem {
+    font-weight: bold;
+}
+
+.sudoku-solver {
+    margin: auto;
+    margin-left: 32%;
+    width: 50%;
+}
+
+.puzzle {
+    width: 540px;
+    height: 540px;
+}
+
+.odd-section {
+    background: #b1cbcc;
+}
+
+.puzzle input {
+    text-align: center;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border: 1px #808080 solid;
+}
+
+.empty-el {
+    color: #4848d4;
+}
+
+.solve-button, .clear-button {
+    margin-top: 20px;
+    background-color: #1B4F72;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.clear-button {
+    margin-left: 15px;
+}
+
+.solve-button:hover, .clear-button:hover {
+    background-color: #568caf;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
